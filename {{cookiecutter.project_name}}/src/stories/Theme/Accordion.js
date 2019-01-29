@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 
 const Accordion = () => {
   return (
@@ -39,7 +39,7 @@ const Accordion = () => {
         </div>
       </li>
     </ul>
-  )
-}
+  );
+};
 
-export default Accordion
+export default Accordion;

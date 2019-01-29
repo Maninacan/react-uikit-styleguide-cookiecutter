@@ -1,4 +1,5 @@
-import React from "react"
+import React from "react";
+import PropTypes from "prop-types";
 
 const ThemeContainer = ({ title, contents }) => {
   return (
@@ -6,7 +7,12 @@ const ThemeContainer = ({ title, contents }) => {
       <h1 className="uk-h1">{title}</h1>
       {contents}
     </div>
-  )
-}
+  );
+};
 
-export default ThemeContainer
+ThemeContainer.propTypes = {
+  title: PropTypes.string.isRequired,
+  contents: PropTypes.any.isRequired
+};
+
+export default ThemeContainer;

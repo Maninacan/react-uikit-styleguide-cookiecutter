@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 
 const Background = () => (
   <div className="uk-child-width-1-2@s uk-text-center" data-uk-grid>
@@ -23,6 +23,6 @@ const Background = () => (
       </div>
     </div>
   </div>
-)
+);
 
-export default Background
+export default Background;

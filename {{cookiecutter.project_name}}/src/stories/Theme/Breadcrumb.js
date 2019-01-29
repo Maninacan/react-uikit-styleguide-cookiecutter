@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 
 const Breadcrumb = () => (
   <ul className="uk-breadcrumb">
@@ -15,6 +15,6 @@ const Breadcrumb = () => (
       <span>Active</span>
     </li>
   </ul>
-)
+);
 
-export default Breadcrumb
+export default Breadcrumb;

@@ -1,0 +1,7 @@
+dist/
+.storybookbuild/
+node_modules/
+fontello.config.json
+
+.prettierignore
+/.storybookbuild/

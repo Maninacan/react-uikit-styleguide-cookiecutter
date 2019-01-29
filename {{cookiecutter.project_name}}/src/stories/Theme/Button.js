@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 
 const Button = () => (
   <div>
@@ -110,7 +110,7 @@ const Button = () => (
       <button className="uk-button uk-button-default">Dropdown</button>
       <div className="uk-inline">
         <button className="uk-button uk-button-default" type="button">
-          <span data-uk-icon="icon:  triangle-down" />
+          <span data-uk-icon className="icon-down-open" />
         </button>
         <div data-uk-dropdown="mode: click; boundary: ! .uk-button-group; boundary-align: true;">
           <ul className="uk-nav uk-dropdown-nav">
@@ -136,6 +136,6 @@ const Button = () => (
       </div>
     </div>
   </div>
-)
+);
 
-export default Button
+export default Button;

@@ -1,5 +1,5 @@
-import React from "react"
-import lightImage from "../../images/uikit-theme-images/light.jpg"
+import React from "react";
+import lightImage from "../../images/light.jpg";
 
 const Align = () => (
   <div className="uk-panel">
@@ -24,6 +24,6 @@ const Align = () => (
       tempor incididunt ut labore et dolore magna aliqua.
     </p>
   </div>
-)
+);
 
-export default Align
+export default Align;

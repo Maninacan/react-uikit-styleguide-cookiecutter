@@ -1,0 +1,38 @@
+.icons {
+  padding: 10px;
+}
+
+.icons > button[data-clipboard-text] {
+  background: transparent;
+  border: none;
+  margin: 0;
+  padding: 0;
+  align-items: inherit;
+  text-align: inherit;
+  cursor: pointer;
+  color: inherit;
+  font: inherit;
+}
+
+.icons > button[data-clipboard-text]:focus {
+  outline: none;
+}
+
+.icons .icon-card {
+  margin: 10px 10px 10px 10px;
+  width: 150px;
+  height: 150px;
+  position: relative;
+}
+
+.icons .icon-card span[class^="icon-"],
+.icons .icon-card span[class*=" icon-"] {
+  font-size: 2em;
+  position: absolute;
+  bottom: 20px;
+  left: calc(50% - 22.5px);
+}
+
+.icons .icon-card:hover {
+  color: #49c5b1;
+}

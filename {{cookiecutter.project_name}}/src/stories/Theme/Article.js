@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 
 const Article = () => (
   <div className="uk-padding uk-padding-remove-vertical">
@@ -44,6 +44,6 @@ const Article = () => (
       </div>
     </article>
   </div>
-)
+);
 
-export default Article
+export default Article;

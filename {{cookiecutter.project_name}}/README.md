@@ -15,13 +15,13 @@ npm install --save react-uikit-styleguide-template
 ## Usage
 
 ```jsx
-import React, { Component } from "react"
+import React, { Component } from "react";
 
-import MyComponent from "react-uikit-styleguide-template"
+import MyComponent from "react-uikit-styleguide-template";
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return <MyComponent />;
   }
 }
 ```

@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 
 const Animation = () => (
   <div
@@ -86,6 +86,6 @@ const Animation = () => (
       </div>
     </div>
   </div>
-)
+);
 
-export default Animation
+export default Animation;

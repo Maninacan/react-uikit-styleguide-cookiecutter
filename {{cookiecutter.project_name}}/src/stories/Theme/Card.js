@@ -1,6 +1,6 @@
-import React from "react"
-import lightImage from "../../images/uikit-theme-images/light.jpg"
-import avatarImage from "../../images/uikit-theme-images/avatar.jpg"
+import React from "react";
+import lightImage from "../../images/light.jpg";
+import avatarImage from "../../images/avatar.jpg";
 
 const Card = () => (
   <div>
@@ -142,6 +142,6 @@ const Card = () => (
       </div>
     </div>
   </div>
-)
+);
 
-export default Card
+export default Card;

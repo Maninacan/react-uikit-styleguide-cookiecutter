@@ -1,6 +1,6 @@
-import React, { Component } from "react"
+import React, { Component } from "react";
 
-import ExampleComponent from "react-uikit-styleguide-template"
+import ExampleComponent from "react-uikit-styleguide-template";
 
 export default class App extends Component {
   render() {
@@ -8,6 +8,6 @@ export default class App extends Component {
       <div>
         <ExampleComponent text="Modern React component module" />
       </div>
-    )
+    );
   }
 }

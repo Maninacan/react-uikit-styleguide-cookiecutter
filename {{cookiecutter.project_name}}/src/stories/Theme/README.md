@@ -9,7 +9,7 @@ Install pacakge
 Import the css in your `App.js` or where desired
 
 ```javascript
-import "@xyngular/base-styles/css/xyngular-theme.css"
+import "@xyngular/base-styles/css/xyngular-theme.css";
 ```
 
 ## UIKit
